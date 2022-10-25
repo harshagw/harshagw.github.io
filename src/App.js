@@ -14,6 +14,9 @@ function App() {
 
       <div className="intro">
         <div className="container">
+          <div className="right">
+            <div className="image"></div>
+          </div>
           <div className="left">
             <h1>
               Hey there, I'm <br /> Harsh Agarwal
@@ -24,13 +27,10 @@ function App() {
             </p>
             <button>Say Hi</button>
           </div>
-          <div className="right">
-            <div className="image"></div>
-          </div>
         </div>
       </div>
 
-      <div className="section about">
+      <div className="section dark about">
         <div className="container">
           <h2>About me</h2>
           <p>
@@ -55,6 +55,8 @@ function App() {
         </div>
       </div>
 
+      <div className="repeater"></div>
+
       <div className="section dark skills">
         <div className="container">
           <h2>My Skills</h2>
@@ -73,7 +75,9 @@ function App() {
         </div>
       </div>
 
-      <div className="section freelancing">
+      <div className="repeater"></div>
+
+      <div className="section dark freelancing">
         <div className="container">
           <h2>Freelancing</h2>
           <p>
@@ -81,7 +85,7 @@ function App() {
             various clients. My projects include browser automation, web scrapping, API Development, trading bots, etc.
           </p>
           <button>Check out my profile</button>
-          <div className="testimonials">
+          {/* <div className="testimonials">
             <h4>Reviews</h4>
             <div className="testimonial">
               <div className="stars">
@@ -97,7 +101,7 @@ function App() {
                 I highly recommend him. He went well beyond the task and deliver more than the scope.."
               </p>
             </div>
-            {/* <div className="testimonial">
+            <div className="testimonial">
               <div className="stars">
                 <Star />
                 <Star />
@@ -122,10 +126,12 @@ function App() {
                 "Really great, delivered well before the time agreed. Included a couple of bonus feature I hadn't asked
                 for that was great."
               </p>
-            </div> */}
-          </div>
+            </div>
+          </div> */}
         </div>
       </div>
+
+      <div className="repeater"></div>
 
       <div className="section dark projects">
         <div className="container">
@@ -190,7 +196,9 @@ function App() {
         </div>
       </div>
 
-      <div className="section contact">
+      <div className="repeater"></div>
+
+      <div className="section dark contact">
         <div className="container">
           <h2>Get in touch with me</h2>
           <div className="socials">
