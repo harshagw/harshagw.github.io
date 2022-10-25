@@ -36,7 +36,7 @@ const Freelancing = () => {
           </span>
         </a>
 
-        <div className="grid grid-cols-3 gap-x-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {testimonials.map((testimonial, index) => {
             return (
               <div className={`inline-block text-purple-300 text-${testimonial["color"]}`}>

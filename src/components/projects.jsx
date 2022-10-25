@@ -26,7 +26,7 @@ const Projects = () => {
   return (
     <div className="bg-[#321720] py-20 text-white">
       <div className="w-10/12 mx-auto">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
           {projects.map((project) => {
             return (
               <div className="p-10 border-2 border-red-300 border-dashed rounded-md ">

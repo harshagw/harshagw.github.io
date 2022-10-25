@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div className="w-full min-h-screen text-white bg-black">
-      <div className="flex items-center justify-between w-10/12 min-h-screen mx-auto">
+      <div className="flex flex-col-reverse items-center justify-around w-10/12 min-h-screen mx-auto md:justify-between md:flex-row">
         <div>
           <h1 className="font-extrabold text-7xl">
             Hey there, I'm <br /> Harsh Agarwal

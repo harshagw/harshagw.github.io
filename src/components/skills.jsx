@@ -24,7 +24,7 @@ const Skills = () => {
   const skills = ["Python", "Javascript", "C++", "HTML/CSS", "ReactJs", "NodeJS"];
   return (
     <div className="bg-[#251b34] py-20 text-white">
-      <div className="grid w-10/12 grid-cols-2 mx-auto">
+      <div className="grid w-10/12 grid-cols-1 mx-auto md:grid-cols-2">
         <div className="max-w-xs">
           <h2 className="text-[#f4a88d] text-4xl font-extrabold">My Skills</h2>
           <p className="py-5">
